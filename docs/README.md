@@ -16,10 +16,16 @@
 
 ---
 
-## 保有スキル
+## 保有スキル（BZ/DS/DE）
 
-- 
-
+- マネジメントスキル
+  - ５名程度の3D地図製造技術研究チームの副リーダーとしての経験
+  - 所属メンバー約200人のコミュニティマネジメント経験
+  - 10人〜15人程度でのデータ分析基盤システム開発プロジェクトリーダー（業務外）
+- エンジニアリングスキル
+  - （未記入）
+- データ分析スキル
+  - （未記入）
 
 ---
 
@@ -27,21 +33,45 @@
 
 ### 言語
 
-- 
+- C++
+- Python
+- R
+- SQL
 
 ### フレームワーク・その他
 
-- 
+- C++
+  - OpenCV / OpenGL
+- Python
+  - Pandas / Numpy / JupyterNotebook / scikit-learn
+
+### 知見を持つサービス
+
+- Google Cloud Platform
+  - Compute Engine / App Engine / Cloud Run / Cloud Functions / Kubernetes Engine
+  - BigQuery / Cloud Pub/Sub / Cloud VPC / Container Registry / Deployment Manager
+
+### 分析に関する学術分野
+
+- 数学基礎
+  - （）
+- 統計学基礎
+  - （）
+- ベイズ統計学
+- 時系列分析
+  - ARIMA系モデル
+  - Box-Jenkins法
+  - 状態空間モデル
 
 ---
 
 ## 職務経歴詳細
 
-### A株式会社（2020/04〜現在）
+### 株式会社データラーニング（2020/09〜現在）
 
 - 
 
-### B株式会社（2015/04〜2020/03）
+### 株式会社ジオ技術研究所（2014/04〜2020/08）
 
 - 
 
