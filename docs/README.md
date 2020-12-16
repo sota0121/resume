@@ -4,13 +4,15 @@
 
 |key|value|
 |---|---|
-|氏名||
-|生年月日||
-|Twitter||
-|Qiita||
-|note||
-|Zenn||
-|SpeakerDeck||
+|氏名|増田壮大 / Sota Masuda|
+|生年月日|1991/01/21|
+|GitHub|[sota0121](https://github.com/sota0121)|
+|Twitter|[@\_\_masso\_\_](https://twitter.com/__masso__)|
+|Qiita|[@masso](https://qiita.com/masso)|
+|Zenn|[@masso](https://zenn.dev/masso)|
+|SpeakerDeck|[@masso](https://speakerdeck.com/masso)|
+|Blog|[筋トレと考えることが好きな人のブログ](https://thinker-masso.hatenablog.com/)|
+|LAPRAS|[@masso](https://lapras.com/public/BOJILEQ)|
 
 ---
 
