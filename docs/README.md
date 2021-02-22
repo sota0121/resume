@@ -140,8 +140,8 @@
 
 <br>
 
-<a name="anno-1">※1 ... データラーニングギルド : https://data-learning.com/guild</a>
+<a name="anno-1">※1 ... <a href="https://data-learning.com/guild">データラーニングギルド</a>
 
-<a name="anno-2">※2 ... データサイエンティスト転職を決めるポートフォリオのガイドライン : https://qiita.com/masso/items/44437b48706483ce9f30</a>
+<a name="anno-2">※2 ... <a href="https://qiita.com/masso/items/44437b48706483ce9f30">データサイエンティスト転職を決めるポートフォリオのガイドライン at Qiita</a>
 
 
