@@ -74,7 +74,7 @@
 
 #### IMU 性能検証
 
-- 新規に導入予定の低価格 IMU(Innertial Mesurement Unit)の性能、環境耐性検証
+- 新規に導入予定の低価格 Innertial Mesurement Unit(IMU)の性能、環境耐性検証
 - 実験計画、実行要員として活動
 - C++ / Arduino / リサーチ・デザイン
 
