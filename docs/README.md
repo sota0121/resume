@@ -55,61 +55,61 @@
 
 #### タスクマイニングプロジェクト
 
-- オペレータのPC操作ログから、業務内容の可視化
-- Python, Jupyter, pandas, numpy, タスクマイニング, プロセスマイニング
+- オペレータの PC 操作ログから、業務内容の可視化
+- Python / Jupyter / pandas / numpy / タスクマイニング / プロセスマイニング
 
 #### 広告コスト最適化プロジェクト
 - デジタル及びオフラインの複数広告メディアの時系列データを元に、都道府県ごとに広告メディアのコスト最適化
-- R, RStan, 状態空間モデリング, マーケティング・ミックス・モデリング
+- R / RStan / 状態空間モデリング / マーケティング・ミックス・モデリング
 
 
 #### 養殖生物の死亡原因推定
 
 - 養殖生物の生育環境と斃死データを元に、生物の斃死に影響を及ぼす要因の探索、及び斃死を抑制するための施策提案
-- Python, Jupyter, pandas, numpy, statsmodels, scikit-learn, ロジスティック回帰, 決定木回帰
+- Python / Jupyter / pandas / numpy / statsmodels / scikit-learn / ロジスティック回帰 / 決定木回帰
 
 <br>
 
 ### 株式会社ジオ技術研究所（2014/04〜2020/08）
 
-#### IMU性能検証
+#### IMU 性能検証
 
-- 新規に導入予定の低価格IMU（Innertial Mesurement Unit）の性能、環境耐性検証
+- 新規に導入予定の低価格 IMU （ Innertial Mesurement Unit ）の性能、環境耐性検証
 - 実験計画、実行要員として活動
-- C++, Arduino, リサーチ・デザイン
+- C++ / Arduino / リサーチ・デザイン
 
 
 #### 2Dデジタル地図製造アプリケーション開発
 
-- 業務用2Dデジタル地図製造用アプリケーションの開発（要件定義、設計、実装、テスト、リリース全般担当）
-- C++, VisualStudio, WinAPI, MFC, OpenCV, SQLite
+- 業務用 2D デジタル地図製造用アプリケーションの開発（要件定義、設計、実装、テスト、リリース全般担当）
+- C++ / VisualStudio / WinAPI / MFC / OpenCV / SQLite
 
 
 #### 夜間における道路上地物の撮影技術研究
 
 - 夜間の道路上の地物を正しく認識するために必要な撮影パラメータの調査
-- C++, OpenCV, Digital Image Processing（デジタル画像処理）
+- C++ / OpenCV / Digital Image Processing（デジタル画像処理）
 
 
 #### 交差点内の自動車走行コース自動計算研究
 
-- 既存の3D地図データから、交差点内における車両の妥当な走行線の探索、及び経路の自動算出アルゴリズム検討
-- 当該アルゴリズムの業務用3D地図製造アプリケーションへの組み込み
-- C++, Matlab, OpenGL, Road Enginnering（道路工学）
+- 既存の 3D 地図データから、交差点内における車両の妥当な走行線の探索、及び経路の自動算出アルゴリズム検討
+- 当該アルゴリズムの業務用 3D 地図製造アプリケーションへの組み込み
+- C++ / Matlab / OpenGL / Road Enginnering（道路工学）
 
 #### 高精度3D地図データ計測車両の精度検証
 
 - 高精度3D地図製造における計測フェーズの技術研究
-- 3DLiDAR, 産業用カメラ, GPSなどを搭載した車両の仕立て（メンバー：5名、役割：副リーダー）
+- 3DLiDAR / 産業用カメラ / GPS などを搭載した車両の仕立て（メンバー： 5 名、役割：副リーダー）
 - 各センサーの性能に基づいて、最終出力データの理論的誤差モデルを構築、及び実測誤差の検証実験計画、実施
-- C++, Python, OpenCV, OpenGL, Positioning Technology（測位技術）
+- C++ / Python / OpenCV / OpenGL / Positioning Technology（測位技術）
 
 
-#### 高精度3D地図データ製造の高効率化研究
+#### 高精度 3D 地図データ製造の高効率化研究
 
-- 高精度3D地図データ製造における「3Dレジストレーション」工程の自動化・半自動化による業務高効率化研究
+- 高精度 3D 地図データ製造における「 3D レジストレーション」工程の自動化・半自動化による業務の高効率化研究
 - レジストレーションの自動化及び、自動化工程、検証工程全体の製造工程設計
-- C++, Python, OpenCV, OpenGL, Deep Learning, ICP
+- C++ / Python / OpenCV / OpenGL / Deep Learning / ICP
 
 
 <br>
@@ -128,11 +128,11 @@
 
 ### 任意のトピックについて関心があるユーザーをレコメンドするシステム
 
-- Slashコマンドで任意のトピックを入力すると、当該トピックについてよく発言していると思われる同一Slackワークスペース内のユーザーを推奨ランク順にレコメンドする
+- Slash コマンドで任意のトピックを入力すると、当該トピックについてよく発言していると思われる同一 Slack ワークスペース内のユーザーを推奨ランク順にレコメンドする
 - [Slash Command at GitHub](https://github.com/data-learning-guild/portfolio-slashcmd-gcp)
 - [Recommendation API at GitHub](https://github.com/data-learning-guild/portfolio-recommendation-api)
 - [Word Embedding at GitHub](https://github.com/data-learning-guild/portfolio-word-embedding)
-- Python, Flask, Slash Command, Google Cloud Platform(App Engine/Cloud Functions/Cloud PubSub/Cloud Storage)
+- Python / Flask / Slash Command / Google Cloud Platform(App Engine/Cloud Functions/Cloud PubSub/Cloud Storage)
 
 <br><br>
 
@@ -140,8 +140,8 @@
 
 <br>
 
-<a name="anno-1">※1 ... [データラーニングギルド](https://data-learning.com/guild)</a>
+<a name="anno-1">※1 ... データラーニングギルド : https://data-learning.com/guild</a>
 
-<a name="anno-2">※2 ... [データサイエンティスト転職を決めるポートフォリオのガイドライン](https://qiita.com/masso/items/44437b48706483ce9f30)</a>
+<a name="anno-2">※2 ... データサイエンティスト転職を決めるポートフォリオのガイドライン : https://qiita.com/masso/items/44437b48706483ce9f30</a>
 
 
