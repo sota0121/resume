@@ -13,21 +13,21 @@
 
 ## 保有スキル（BZ/DS/DE）
 
-- マネジメントスキル
+- **マネジメントスキル**
   - 5 名程度の 3D 地図製造技術の研究チーム副リーダーとしての経験
   - 所属メンバー約 200 人のコミュニティマネジメント経験
   - 10 人〜15 人程度でのデータ分析基盤システム開発プロジェクトリーダー（業務外）
-- エンジニアリングスキル
+- **エンジニアリングスキル**
   - デジタル地図製造ソフトウェアの開発経験（要件定義〜テスト・リリースまで）
   - カメラ / GNSS / 3DLiDAR などのセンサーデータロギングアプリケーション開発経験
-- 分析スキル
+- **分析スキル**
   - 3D 点群データを用いたデジタル地図データ（半）自動生成研究の経験
   - 数万レコードの実験データ分析経験
   - カメラ / GNSS / 3DLiDAR などのセンサーの計測誤差モデル構築経験
   - タスクマイニングツールログデータの解析による業務タスクの可視化、クラスタリング
   - MMM を用いた広告最適化
   - Slack の会話データを分析して任意のトピックに興味を持つユーザーをレコメンドするロジックの構築（業務外）
-- 資格等
+- **資格等**
   - 画像処理エンジニアエキスパート（2017）
   - G 検定（2019）
   - 基本情報（2013）
@@ -41,10 +41,20 @@
 | --- | --- |
 |Lang|![icon](https://img.shields.io/badge/-Python-646464?style=flat&logo=Python&logoColor=ffe873)  ![icon](https://img.shields.io/badge/-C++-4682b4?style=flat&logo=c%2B%2B&logoColor=white)  ![icon](https://img.shields.io/badge/-SQL-f29111?style=flat&logo=mysql&logoColor=white)  ![icon](https://img.shields.io/badge/-R-276dc3?style=flat&logo=R&logoColor=white)  ![icon](https://img.shields.io/badge/-Bash-4eaa54?style=flat&logo=GNU-bash&logoColor=white)|
 |Platform|![icon](https://img.shields.io/badge/-Google%20Cloud-4285f4?style=flat&logo=google-cloud&logoColor=white)  ![icon](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)  ![icon](https://img.shields.io/badge/-Docker-2496ed?style=flat&logo=docker&logoColor=white)|
-|Service|![icon](https://img.shields.io/badge/-Slack-4a154b?style=flat&logo=slack&logoColor=white)  ![icon](https://img.shields.io/badge/-Asana-fc636b?style=flat&logo=asana&logoColor=white)  ![icon](https://img.shields.io/badge/-Trello-0079bf?style=flat&logo=trello&logoColor=white)  ![icon](https://img.shields.io/badge/-Google%20Workspace-4285f4?style=flat&logo=google&logoColor=white)|
+|Service|![icon](https://img.shields.io/badge/-Slack-4a154b?style=flat&logo=slack&logoColor=white)  ![icon](https://img.shields.io/badge/-Asana-fc636b?style=flat&logo=asana&logoColor=white)  ![icon](https://img.shields.io/badge/-Trello-0079bf?style=flat&logo=trello&logoColor=white)  ![icon](https://img.shields.io/badge/-Google%20Workspace-4285f4?style=flat&logo=google&logoColor=white)  ![icon](https://img.shields.io/badge/-Google%20Apps%20Script-4285f4?style=flat&logo=google&logoColor=white)  ![icon](https://img.shields.io/badge/-Google%20Colab-F9AB00?style=flat&logo=google-colab&logoColor=white)|
 |OS|![icon](https://img.shields.io/badge/-macOS-000000?style=flat&logo=macos&logoColor=white)  ![icon](https://img.shields.io/badge/-Windows-0078d6?style=flat&logo=windows&logoColor=white)  ![icon](https://img.shields.io/badge/-Linux%20(Ubuntu)-e95420?style=flat&logo=ubuntu&logoColor=white)|
 |Lib/FrameWork|![icon](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white)  ![icon](https://img.shields.io/badge/-OpenCV-5c3ee8?style=flat&logo=opencv&logoColor=white)  ![icon](https://img.shields.io/badge/-OpenGL-5586a4?style=flat&logo=opengl&logoColor=white)  ![icon](https://img.shields.io/badge/-pandas-150458?style=flat&logo=pandas&logoColor=white)  ![icon](https://img.shields.io/badge/-numpy-013243?style=flat&logo=numpy&logoColor=white)  ![icon](https://img.shields.io/badge/-matplotlib-3775a9?style=flat&logo=pypi&logoColor=white)  ![icon](https://img.shields.io/badge/-seaborn-3775a9?style=flat&logo=pypi&logoColor=white)  ![icon](https://img.shields.io/badge/-Jupyter-f37623?style=flat&logo=jupyter&logoColor=white)  ![icon](https://img.shields.io/badge/-scikit%20learn-f7931e?style=flat&logo=scikit-learn&logoColor=white)|
 |Tech|`Statistics (Bayesian/Frequentist)` / <br>`Linear Algebra` / <br>`Probability theory` / <br>`Data Visualization` / <br>`Digital Image Processing` / <br>`Positioning Technology` / <br>`3D LiDAR` / <br>`Data Analysis` / <br>`Machine Learning` / <br>`Time-series Forcasting`|
+
+
+---
+
+## 職務経歴概要
+
+| 時期 | 所属企業 | 職務概要 | ロール |
+|:-:|:-:|:---|:---|
+|現在<br>↑<br>2020/09| 株式会社データラーニング<br>（業務委託） | ・受託データ分析<br>・コミュニティマネジメント| ・データサイエンティスト<br>・コミュニティマネージャー |
+|2020/08<br>↑<br>2014/04| 株式会社ジオ技術研究所<br>（正社員） | ・3D デジタル地図製造研究<br>・デジタル地図製造 APP 開発 | ・研究者<br>・エンジニア |
 
 
 ---
@@ -53,49 +63,32 @@
 
 ### 株式会社データラーニング（2020/09〜現在）
 
-#### タスクマイニングプロジェクト
+#### 養殖生物の死亡原因推定
 
-- オペレータの PC 操作ログから、業務内容の可視化
-- Python / Jupyter / pandas / numpy / タスクマイニング / プロセスマイニング
+- 養殖生物の生育環境と斃死データを元に、生物の斃死に影響を及ぼす要因の探索、及び斃死を抑制するための施策提案
+- Python / Jupyter / pandas / numpy / statsmodels / scikit-learn / ロジスティック回帰 / 決定木回帰
+
 
 #### 広告コスト最適化プロジェクト
 - デジタル及びオフラインの複数広告メディアの時系列データを元に、都道府県ごとに広告メディアのコスト最適化
 - R / RStan / 状態空間モデリング / マーケティング・ミックス・モデリング
 
 
-#### 養殖生物の死亡原因推定
+#### タスクマイニングプロジェクト
 
-- 養殖生物の生育環境と斃死データを元に、生物の斃死に影響を及ぼす要因の探索、及び斃死を抑制するための施策提案
-- Python / Jupyter / pandas / numpy / statsmodels / scikit-learn / ロジスティック回帰 / 決定木回帰
+- オペレータの PC 操作ログから、業務内容の可視化
+- Python / Jupyter / pandas / numpy / タスクマイニング / プロセスマイニング
 
 <br>
 
 ### 株式会社ジオ技術研究所（2014/04〜2020/08）
 
-#### IMU 性能検証
+#### 高精度 3D 地図データ製造の高効率化研究
 
-- 新規に導入予定の低価格 Innertial Mesurement Unit(IMU)の性能、環境耐性検証
-- 実験計画、実行要員として活動
-- C++ / Arduino / リサーチ・デザイン
+- 高精度 3D 地図データ製造における「3D レジストレーション」工程の自動化・半自動化による業務の高効率化研究
+- レジストレーションの自動化及び、自動化工程、検証工程全体の製造工程設計
+- C++ / Python / OpenCV / OpenGL / Deep Learning / ICP
 
-
-#### 2Dデジタル地図製造アプリケーション開発
-
-- 業務用 2D デジタル地図製造用アプリケーションの開発（要件定義、設計、実装、テスト、リリース全般担当）
-- C++ / VisualStudio / WinAPI / MFC / OpenCV / SQLite
-
-
-#### 夜間における道路上地物の撮影技術研究
-
-- 夜間の道路上の地物を正しく認識するために必要な撮影パラメータの調査
-- C++ / OpenCV / Digital Image Processing（デジタル画像処理）
-
-
-#### 交差点内の自動車走行コース自動計算研究
-
-- 既存の 3D 地図データから、交差点内における車両の妥当な走行線の探索、及び経路の自動算出アルゴリズム検討
-- 当該アルゴリズムの業務用 3D 地図製造アプリケーションへの組み込み
-- C++ / Matlab / OpenGL / Road Enginnering（道路工学）
 
 #### 高精度 3D 地図データ計測車両の精度検証
 
@@ -105,11 +98,30 @@
 - C++ / Python / OpenCV / OpenGL / Positioning Technology（測位技術）
 
 
-#### 高精度 3D 地図データ製造の高効率化研究
+#### 交差点内の自動車走行コース自動計算研究
 
-- 高精度 3D 地図データ製造における「3D レジストレーション」工程の自動化・半自動化による業務の高効率化研究
-- レジストレーションの自動化及び、自動化工程、検証工程全体の製造工程設計
-- C++ / Python / OpenCV / OpenGL / Deep Learning / ICP
+- 既存の 3D 地図データから、交差点内における車両の妥当な走行線の探索、及び経路の自動算出アルゴリズム検討
+- 当該アルゴリズムの業務用 3D 地図製造アプリケーションへの組み込み
+- C++ / Matlab / OpenGL / Road Enginnering（道路工学）
+
+
+#### 夜間における道路上地物の撮影技術研究
+
+- 夜間の道路上の地物を正しく認識するために必要な撮影パラメータの調査
+- C++ / OpenCV / Digital Image Processing（デジタル画像処理）
+
+
+#### 2Dデジタル地図製造アプリケーション開発
+
+- 業務用 2D デジタル地図製造用アプリケーションの開発（要件定義、設計、実装、テスト、リリース全般担当）
+- C++ / VisualStudio / WinAPI / MFC / OpenCV / SQLite
+
+
+#### IMU 性能検証
+
+- 新規に導入予定の低価格 Innertial Mesurement Unit(IMU)の性能、環境耐性検証
+- 実験計画、実行要員として活動
+- C++ / Arduino / リサーチ・デザイン
 
 
 <br>
