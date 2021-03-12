@@ -47,7 +47,7 @@
 |Platform|![icon](https://img.shields.io/badge/-Google%20Cloud-4285f4?style=flat&logo=google-cloud&logoColor=white)  ![icon](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)  ![icon](https://img.shields.io/badge/-Docker-2496ed?style=flat&logo=docker&logoColor=white)|
 |Service|![icon](https://img.shields.io/badge/-Slack-4a154b?style=flat&logo=slack&logoColor=white)  ![icon](https://img.shields.io/badge/-Asana-fc636b?style=flat&logo=asana&logoColor=white)  ![icon](https://img.shields.io/badge/-Trello-0079bf?style=flat&logo=trello&logoColor=white)  ![icon](https://img.shields.io/badge/-Google%20Workspace-4285f4?style=flat&logo=google&logoColor=white)  ![icon](https://img.shields.io/badge/-Google%20Apps%20Script-4285f4?style=flat&logo=google&logoColor=white)  ![icon](https://img.shields.io/badge/-Google%20Colab-F9AB00?style=flat&logo=google-colab&logoColor=white)|
 |OS|![icon](https://img.shields.io/badge/-macOS-000000?style=flat&logo=macos&logoColor=white)  ![icon](https://img.shields.io/badge/-Windows-0078d6?style=flat&logo=windows&logoColor=white)  ![icon](https://img.shields.io/badge/-Linux%20(Ubuntu)-e95420?style=flat&logo=ubuntu&logoColor=white)|
-|Lib/FrameWork|![icon](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white)  ![icon](https://img.shields.io/badge/-OpenCV-5c3ee8?style=flat&logo=opencv&logoColor=white)  ![icon](https://img.shields.io/badge/-OpenGL-5586a4?style=flat&logo=opengl&logoColor=white)  ![icon](https://img.shields.io/badge/-pandas-150458?style=flat&logo=pandas&logoColor=white)  ![icon](https://img.shields.io/badge/-numpy-013243?style=flat&logo=numpy&logoColor=white)  ![icon](https://img.shields.io/badge/-matplotlib-3775a9?style=flat&logo=pypi&logoColor=white)  ![icon](https://img.shields.io/badge/-seaborn-3775a9?style=flat&logo=pypi&logoColor=white)  ![icon](https://img.shields.io/badge/-Jupyter-f37623?style=flat&logo=jupyter&logoColor=white)  ![icon](https://img.shields.io/badge/-scikit%20learn-f7931e?style=flat&logo=scikit-learn&logoColor=white)|
+|Lib/FrameWork|![icon](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white)  ![icon](https://img.shields.io/badge/-OpenCV-5c3ee8?style=flat&logo=opencv&logoColor=white)  ![icon](https://img.shields.io/badge/-OpenGL-5586a4?style=flat&logo=opengl&logoColor=white)  ![icon](https://img.shields.io/badge/-pandas-150458?style=flat&logo=pandas&logoColor=white)  ![icon](https://img.shields.io/badge/-numpy-013243?style=flat&logo=numpy&logoColor=white)  ![icon](https://img.shields.io/badge/-matplotlib-3775a9?style=flat&logo=pypi&logoColor=white)  ![icon](https://img.shields.io/badge/-seaborn-3775a9?style=flat&logo=pypi&logoColor=white)  ![icon](https://img.shields.io/badge/-Jupyter-f37623?style=flat&logo=jupyter&logoColor=white)  ![icon](https://img.shields.io/badge/-scikit%20learn-f7931e?style=flat&logo=scikit-learn&logoColor=white)  ![icon](https://img.shields.io/badge/-Open%203D-3DA639?style=flat&logo=open-source-initiative&logoColor=white)  ![icon](https://img.shields.io/badge/-Point%20Cloud%20Library-3DA639?style=flat&logo=open-source-initiative&logoColor=white)  ![icon](https://img.shields.io/badge/-Eigen-3DA639?style=flat&logo=open-source-initiative&logoColor=white)|
 |Tech|`Statistics (Bayesian/Frequentist)` / <br>`Linear Algebra` / <br>`Probability theory` / <br>`Data Visualization` / <br>`Digital Image Processing` / <br>`Positioning Technology` / <br>`3D LiDAR` / <br>`Data Analysis` / <br>`Machine Learning` / <br>`Time-series Forcasting`|
 
 
@@ -83,49 +83,70 @@
 - オペレータの PC 操作ログから、業務内容の可視化
 - Python / Jupyter / pandas / numpy / タスクマイニング / プロセスマイニング
 
-<br>
+<br><br>
 
 ### 株式会社ジオ技術研究所（2014/04〜2020/08）
 
-#### 高精度 3D 地図データ製造の高効率化研究
+<br>
 
-- 高精度 3D 地図データ製造における「3D レジストレーション」工程の自動化・半自動化による業務の高効率化研究
-- レジストレーションの自動化及び、自動化工程、検証工程全体の製造工程設計
-- C++ / Python / OpenCV / OpenGL / Deep Learning / ICP
+#### 高精度 3D 地図データ製造の高効率化研究（2017/10〜2020/08)
 
 
-#### 高精度 3D 地図データ計測車両の精度検証
+| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
+|---|---|:---|---|---|
+| 高精度 3D 地図データ製造における<br>「3D レジストレーション」工程の自動化・<br>半自動化による業務の高効率化研究 | ・レジストレーションの自動化<br>・データの生成と検証全体の製造工程設計 | ・C++/Python<br>・OpenCV/OpenGL/ICP | 1 人 | 研究者 |
 
-- 高精度 3D 地図製造における計測フェーズの技術研究
-- 3DLiDAR / 産業用カメラ / GPS などを搭載した車両の仕立て（メンバー： 5 名、役割：副リーダー）
-- 各センサーの性能に基づいて、最終出力データの理論的誤差モデルを構築、及び実測誤差の検証実験計画、実施
-- C++ / Python / OpenCV / OpenGL / Positioning Technology（測位技術）
+<br>
 
-
-#### 交差点内の自動車走行コース自動計算研究
-
-- 既存の 3D 地図データから、交差点内における車両の妥当な走行線の探索、及び経路の自動算出アルゴリズム検討
-- 当該アルゴリズムの業務用 3D 地図製造アプリケーションへの組み込み
-- C++ / Matlab / OpenGL / Road Enginnering（道路工学）
+#### 交差点内の自動車走行コース自動計算研究・機能開発（2017/04〜2020/03)
 
 
-#### 夜間における道路上地物の撮影技術研究
-
-- 夜間の道路上の地物を正しく認識するために必要な撮影パラメータの調査
-- C++ / OpenCV / Digital Image Processing（デジタル画像処理）
-
-
-#### 2Dデジタル地図製造アプリケーション開発
-
-- 業務用 2D デジタル地図製造用アプリケーションの開発（要件定義、設計、実装、テスト、リリース全般担当）
-- C++ / VisualStudio / WinAPI / MFC / OpenCV / SQLite
+| プロジェクト概要 | 担当業務 | Stack | 人数| 役割
+|---|---|---|---|---|
+| 既存の 3D 地図データから、<br>交差点内における車両の妥当な走行線の探索、<br>及び経路の自動算出アルゴリズム検討 | 当該アルゴリズムのパフォーマンス改善及び<br>業務用 3D 地図製造アプリケーションへの組み込み | ・C++/MATLAB<br>・OpenGL/<br>Road Enginnering（道路工学） | 9 人 | 研究者<br>兼<br>エンジニア |
 
 
-#### IMU 性能検証
+<br>
 
-- 新規に導入予定の低価格 Innertial Mesurement Unit(IMU)の性能、環境耐性検証
-- 実験計画、実行要員として活動
-- C++ / Arduino / リサーチ・デザイン
+#### 高精度 3D 地図データ計測車両の精度検証（2019/04〜2019/09)
+
+| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
+|---|---|---|---|---|
+| 高精度 3D 地図製造における計測フェーズの<br>技術研究 | ・ 3DLiDAR / 産業用カメラ / GPS などを<br>搭載した車両の仕立て <br><br>・各センサーの性能に基づいて、<br>最終出力データの理論的誤差モデルを構築、<br>及び実測誤差の検証実験計画、実施 | ・C++/Python<br>・OpenCV/OpenGL/<br>Positioning Technology（測位技術） | 5 人 | サブリーダー<br>兼<br>研究者 |
+
+<br>
+
+#### 夜間における道路上地物の撮影技術研究（2016/10〜2017/03)
+
+
+| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
+|---|---|---|---|---|
+| 夜間の道路上の地物を正しく<br>認識するために適切な撮影パラメータの調査 | 手法検討<br>ロジック設計<br>実装<br>性能評価<br>レポート | ・C++<br>・OpenCV/<br>Digital Image Processing（デジタル画像処理） | 2 人 | 開発者<br>兼<br>研究者 |
+
+
+<br>
+
+#### 2Dデジタル地図製造アプリケーション開発（2015/06〜2016/09)
+
+| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
+|---|---|---|---|---|
+|業務用 2D デジタル地図製造用<br>GUI アプリケーションや<br>フォーマット変換ツールの開発 | 要件定義<br>設計<br>実装<br>テスト<br>リリース<br>保守<br>障害対応 | ・C++<br>・WinAPI/MFC/<br>OpenCV/SQLite | 2 人 | 開発者 |
+
+<br>
+
+#### 地図データ・フォーマット変換ツール開発（2015/01〜2015/05)
+
+| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
+|---|---|---|---|---|
+| 地図データフォーマット変換ツール新規開発 | I/F 設計<br>変換ロジック開発 | C++ | 3 人 | 開発者 |
+
+<br>
+
+#### IMU 性能検証（2014/09〜2014/12)
+
+| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
+|---|---|---|---|---|
+| 新規に導入予定の低価格<br>Innertial Mesurement Unit(IMU)の<br>性能、環境耐性検証 | 実験計画<br>実行要員として活動 | ・C++<br>・Arduino | 3 人 | 開発者 |
 
 
 <br>
