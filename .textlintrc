@@ -119,7 +119,7 @@
       "allowEmoji": false,
       "forceAppendPeriod": false
     },
-    "ja-hiragana-keishikimeishi": true,
+    "ja-hiragana-keishikimeishi": false,
     "ja-hiragana-fukushi": true,
     "ja-hiragana-hojodoushi": true,
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": true,
