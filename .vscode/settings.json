@@ -1,0 +1,8 @@
+{
+    "markdown-pdf.type": [],
+    "markdown-pdf.styles": [
+        "./pdf-configs/config.js",
+        "./pdf-configs/style.css"
+    ],
+    "markdown-pdf.breaks": true
+}
