@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "resume template",
   "scripts": {
-    "lint": "textlint docs/jp/README.md & textlint docs/en/README.md",
-    "build:pdf": "md-to-pdf docs/jp/README.md --config-file ./pdf-configs/config.jp.js & md-to-pdf docs/en/README.md --config-file ./pdf-configs/config.en.js"
+    "lint": "textlint docs/jp/README.md && textlint docs/en/README.md",
+    "build:pdf": "md-to-pdf docs/en/README.md --config-file ./pdf-configs/config.en.js && md-to-pdf docs/jp/README.md --config-file ./pdf-configs/config.jp.js"
   },
   "keywords": [],
   "devDependencies": {
