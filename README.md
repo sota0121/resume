@@ -2,7 +2,11 @@
 
 ## resume page
 
-https://sota0121.github.io/resume/
+- JP
+  - https://sota0121.github.io/resume/jp/README
+- EN
+  - https://sota0121.github.io/resume/en/README
+
 
 ## Features
 
