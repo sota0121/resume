@@ -3,7 +3,9 @@ node_modules
 **/*.pdf
 .history/
 
-./pdf/*.pdf
+pdf/*.pdf
 !./pdf/.gitkeep
-./_site/*
+_site/*
 !./_site/.gitkeep
+
+vendor/
