@@ -5,3 +5,5 @@ node_modules
 
 ./pdf/*.pdf
 !./pdf/.gitkeep
+./_site/*
+!./_site/.gitkeep
