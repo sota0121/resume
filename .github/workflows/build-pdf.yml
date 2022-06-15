@@ -27,13 +27,23 @@ jobs:
           release_name: Release ${{ github.ref }}
           draft: false
           prerelease: false
-      - name: upload Release Asset
+      - name: upload Release Asset en
         id: upload-release-asset
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./docs/README.pdf
-          asset_name: resume.pdf
+          asset_path: ./pdf/RESUME.en.pdf
+          asset_name: resume.en.pdf
+          asset_content_type: application/pdf
+      - name: upload Release Asset jp
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./pdf/RESUME.jp.pdf
+          asset_name: resume.jp.pdf
           asset_content_type: application/pdf
