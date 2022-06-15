@@ -4,7 +4,9 @@ node_modules
 .history/
 
 pdf/*.pdf
-!./pdf/.gitkeep
+!pdf/.gitkeep
+!pdf/*.pdf
+
 _site/*
 !./_site/.gitkeep
 
