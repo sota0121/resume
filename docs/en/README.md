@@ -1,13 +1,16 @@
-# Resume (en)
 
-Under construction.
+<div class="resume-header">
+    <a href="https://github.com/sota0121">GitHub Profile</a>
+</div>
 
-## Section 1
+## Experience
 
-test
 
-## Section 2
 
-test
 
-日本語を記入
+## Leadership and Awards
+
+
+## Education
+
+
