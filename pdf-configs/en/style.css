@@ -1,8 +1,10 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url(//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css);
 
 body {
   font-size: 12px;
   font-family: "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  color: #222;
 }
 
 h1:first-child {
@@ -41,16 +43,37 @@ hr {
 }
 
 
-.header-container {
-  margin-bottom: 30px;
-  font-size: 14px;
-  font-weight: bold;
-  color: #888;
+.resume-header-layout {
+  margin-bottom: 6mm;
 }
 
-.resume-header {
-  text-align: right;
-  color: #66a;
+.resume-header-name {
+  font-size: 20px;
   font-weight: bold;
-  font-size: large;
+  text-align: left;
+  color: #003b49;
+}
+
+.resume-header-email {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  color: #003b49;
+}
+
+.resume-header-gh-layout {
+  text-align: right;
+}
+
+.resume-header-gh {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1d4289;
+}
+
+.resume-header-pg-lang {
+  font-size: 14px;
+  font-weight: bold;
+  color: #003b49;
+  text-align: right;
 }
