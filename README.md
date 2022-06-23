@@ -15,7 +15,11 @@
 Automatic proofreading with [textlint](https://github.com/textlint/textlint).
 
 ```bash
-$ yarn lint --fix
+# for files written in Japanese
+$ yarn lint:jp --fix
+
+# for files written in English
+$ yarn lint:en --fix
 ```
 
 It is also automatically executed when pre-commit by [husky](https://github.com/typicode/husky).  

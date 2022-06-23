@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "My Resume Template",
   "scripts": {
-    "lint": "textlint docs/jp/README.md && textlint docs/en/README.md",
+    "lint:jp": "textlint docs/jp/README.md",
+    "lint:en": "textlint docs/en/README.md",
     "build:pdf:en": "md-to-pdf docs/en/README.md --config-file ./pdf-configs/en/config.js",
     "build:pdf:jp": "md-to-pdf docs/jp/README.md --config-file ./pdf-configs/jp/config.js",
     "build:pdf": "yarn build:pdf:en && yarn build:pdf:jp"
