@@ -12,5 +12,7 @@ jobs:
         with:
           node-version: '14'
       - run: npm install
-      - name: lint text
-        run: npm run lint
+      - name: lint text jp
+        run: npm run lint:jp
+      - name: lint text en
+        run: npm run lint:en
