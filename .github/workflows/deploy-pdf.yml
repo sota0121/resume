@@ -28,7 +28,7 @@ jobs:
           draft: false
           prerelease: false
       - name: upload Release Asset en
-        id: upload-release-asset
+        id: upload-release-asset-en
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -38,7 +38,7 @@ jobs:
           asset_name: resume.en.pdf
           asset_content_type: application/pdf
       - name: upload Release Asset jp
-        id: upload-release-asset
+        id: upload-release-asset-jp
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
