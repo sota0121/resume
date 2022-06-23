@@ -1,10 +1,13 @@
 {
-  "name": "resume-template",
+  "name": "resume",
   "version": "1.0.0",
-  "description": "resume template",
+  "description": "My Resume Template",
   "scripts": {
-    "lint": "textlint docs/README.md",
-    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
+    "lint:jp": "textlint docs/jp/README.md",
+    "lint:en": "textlint docs/en/README.md",
+    "build:pdf:en": "md-to-pdf docs/en/README.md --config-file ./pdf-configs/en/config.js",
+    "build:pdf:jp": "md-to-pdf docs/jp/README.md --config-file ./pdf-configs/jp/config.js",
+    "build:pdf": "yarn build:pdf:en && yarn build:pdf:jp"
   },
   "keywords": [],
   "devDependencies": {
@@ -30,5 +33,9 @@
     "textlint-rule-preset-jtf-style": "^2.3.4",
     "textlint-rule-prh": "^5.3.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:sota0121/resume.git",
+  "author": "sota_masuda <sota.m777121@gmail.com>",
+  "license": "MIT"
 }

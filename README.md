@@ -2,7 +2,11 @@
 
 ## resume page
 
-https://sota0121.github.io/resume/
+- JP
+  - https://sota0121.github.io/resume/jp/README
+- EN
+  - https://sota0121.github.io/resume/en/README
+
 
 ## Features
 
@@ -11,7 +15,11 @@ https://sota0121.github.io/resume/
 Automatic proofreading with [textlint](https://github.com/textlint/textlint).
 
 ```bash
-$ yarn lint --fix
+# for files written in Japanese
+$ yarn lint:jp --fix
+
+# for files written in English
+$ yarn lint:en --fix
 ```
 
 It is also automatically executed when pre-commit by [husky](https://github.com/typicode/husky).  
@@ -45,3 +53,23 @@ Automatically generate issues every three months with GitHub Actions Schedules t
 
 To change the duration or stop the job, edit `.github/workflows/create-issue.yml`.  
 To change the issue contents, edit `.github/ISSUE_TEMPLATE.md`.
+
+### 🛠 Run Jekyll locally
+
+You can run Jekyll locally with `./watch.sh`, and then access the site with `http://localhost:4000`.
+
+- Index page: [http://localhost:4000/](http://localhost:4000/)
+- Resume in Japanese: [http://localhost:4000/docs/jp/](http://localhost:4000/docs/jp/)
+- Resume in English: [http://localhost:4000/docs/en/](http://localhost:4000/docs/en/)
+
+```bash
+# serve
+$ ./watch.sh $PORT_NUMBER
+```
+
+If you want to just build documentation without serving, you can use `./build.sh`.
+
+```bash
+# build
+$ ./build.sh
+```

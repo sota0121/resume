@@ -2,3 +2,12 @@ node_modules
 .DS_Store
 **/*.pdf
 .history/
+
+pdf/*.pdf
+!pdf/.gitkeep
+!pdf/*.pdf
+
+_site/*
+!./_site/.gitkeep
+
+vendor/

@@ -1,6 +1,7 @@
 module.exports = {
-  stylesheet: "./pdf-configs/style.css",
+  stylesheet: "./pdf-configs/jp/style.css",
   body_class: "markdown-body",
+  dest: "./pdf/RESUME.jp.pdf",
   marked_options: {
     headerIds: false,
     smartypants: true,
