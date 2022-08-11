@@ -1,244 +1,87 @@
-
 # 職務経歴書
 
 ## 基本情報
 
-|key|value|
+| 項目 | 内容 |
 |---|---|
-|氏名|増田壮大 / Sota Masuda|
-|生年月日|1991/01/21|
-|Links|[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/sota0121)  [![SpeakerDeck Badge](https://img.shields.io/badge/-SpeakerDeck-008080?style=flat&logo=Slides&logoColor=white)](https://speakerdeck.com/masso)  [![Blog](https://img.shields.io/badge/-HatenaBlog-4169e1?style=flat&logo=google-chrome&logoColor=white)](https://thinker-masso.hatenablog.com/)  [![Linktree](https://img.shields.io/badge/-Linktree-39e09b?style=flat&logo=linktree&logoColor=white)](https://linktr.ee/massox/)  [![Qiita Badge](https://img.shields.io/badge/-Qiita-55c500?style=flat&logo=Qiita&logoColor=white)](https://qiita.com/masso)<br>[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/sotamasuda/)  [![Twitter Badge](https://img.shields.io/badge/-Twitter-00acee?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/__masso__)  [![Zenn](https://img.shields.io/badge/-Zenn-3ea8ff?style=flat&logo=zenn&logoColor=white)](https://zenn.dev/masso)  [![LAPRAS](https://img.shields.io/badge/-LAPRAS-003089?style=flat&logo=openai&logoColor=white)](https://lapras.com/public/BOJILEQ)|
+| 名前 | 増田壮大 |
+| メールアドレス | sota.m777121@gmail.com |
+| GitHub Profile | https://github.com/sota0121 |
+| 主な使用言語 | C++ / Python / JavaScript / TypeScript |
+| 自己PR | (1)不完全な材料しか揃っていない状況でも着実にプロジェクトを進めていくことが得意です。<br>(2)相手の目線に合わせて、伝え方を工夫することが得意です。<br>(3)自律的に考え、仕事を進めていくことが得意です。 |
 
 
----
+## 職務経歴
 
-## 活かせる経験・知識・スキル
+### Software Engineer ( LIONS Data, Inc. ) - Aug 2021 - Present
 
-- **マネジメント**
-  - 5 名程度の 3D 地図製造技術の先進研究チーム副リーダーとしての経験
-  - 所属メンバー約 200 人のコミュニティマネジメント経験
-  - 10 人〜 15 人程度でのデータ分析基盤システム開発プロジェクトリーダー（業務外）
-- **エンジニアリング**
-  - デジタル地図製造ソフトウェアの開発経験（要件定義〜テスト・リリースまで）
-  - C++によるアプリケーション開発経験
-  - カメラ / GNSS / 3DLiDAR などのセンサーデータロギングアプリケーション開発経験
-  - Python によるアプリケーション開発経験
-  - Google Cloud Platform を用いたデータ処理基盤やアプリケーション実行環境の構築経験（業務外）
-- **分析**
-  - 画像処理、3D 点群処理に関する知識及びデジタル地図製造プロセス改善への応用経験
-  - Python による数万レコードの実験データ分析経験
-  - 精密計測装置の研究を通じて得た実践的な計量学の知識（推測統計・確率分布モデルの実利用など）
-  - カメラ / GNSS / 3DLiDAR などのセンサーの計測誤差モデル構築経験
-  - Slack のメッセージ分析を通して得た自然言語の処理技術
-  - タスクマイニングツールログデータの解析による業務タスクの可視化、クラスタリング
-  - 状態空間モデルを用いた時系列広告データの分析
-- **資格等**
-  - 画像処理エンジニアエキスパート（2017）
-  - G 検定（2019）
-  - 基本情報（2013）
-
----
-
-<div class="page"/>
-
-## 技術スタック
-
-
-| Type of skill | Skills |
-| --- | --- |
-|Lang|![icon](https://img.shields.io/badge/-Python-646464?style=flat&logo=Python&logoColor=ffe873)  ![icon](https://img.shields.io/badge/-C++-4682b4?style=flat&logo=c%2B%2B&logoColor=white)  ![icon](https://img.shields.io/badge/-SQL-f29111?style=flat&logo=mysql&logoColor=white)  ![icon](https://img.shields.io/badge/-R-276dc3?style=flat&logo=R&logoColor=white)  ![icon](https://img.shields.io/badge/-Bash-4eaa54?style=flat&logo=GNU-bash&logoColor=white)|
-|Platform|![icon](https://img.shields.io/badge/-Google%20Cloud-4285f4?style=flat&logo=google-cloud&logoColor=white)  ![icon](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)  ![icon](https://img.shields.io/badge/-Docker-2496ed?style=flat&logo=docker&logoColor=white)|
-|Service|![icon](https://img.shields.io/badge/-Slack-4a154b?style=flat&logo=slack&logoColor=white)  ![icon](https://img.shields.io/badge/-Asana-fc636b?style=flat&logo=asana&logoColor=white)  ![icon](https://img.shields.io/badge/-Trello-0079bf?style=flat&logo=trello&logoColor=white)  ![icon](https://img.shields.io/badge/-Google%20Workspace-4285f4?style=flat&logo=google&logoColor=white)  ![icon](https://img.shields.io/badge/-Google%20Apps%20Script-4285f4?style=flat&logo=google&logoColor=white)  ![icon](https://img.shields.io/badge/-Google%20Colab-F9AB00?style=flat&logo=google-colab&logoColor=white)|
-|OS|![icon](https://img.shields.io/badge/-macOS-000000?style=flat&logo=macos&logoColor=white)  ![icon](https://img.shields.io/badge/-Windows-0078d6?style=flat&logo=windows&logoColor=white)  ![icon](https://img.shields.io/badge/-Linux%20(Ubuntu)-e95420?style=flat&logo=ubuntu&logoColor=white)|
-|Lib/FrameWork|![icon](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white)  ![icon](https://img.shields.io/badge/-OpenCV-5c3ee8?style=flat&logo=opencv&logoColor=white)  ![icon](https://img.shields.io/badge/-OpenGL-5586a4?style=flat&logo=opengl&logoColor=white)  ![icon](https://img.shields.io/badge/-pandas-150458?style=flat&logo=pandas&logoColor=white)  ![icon](https://img.shields.io/badge/-numpy-013243?style=flat&logo=numpy&logoColor=white)  ![icon](https://img.shields.io/badge/-matplotlib-3775a9?style=flat&logo=pypi&logoColor=white)  ![icon](https://img.shields.io/badge/-seaborn-3775a9?style=flat&logo=pypi&logoColor=white)  ![icon](https://img.shields.io/badge/-Jupyter-f37623?style=flat&logo=jupyter&logoColor=white)  ![icon](https://img.shields.io/badge/-scikit%20learn-f7931e?style=flat&logo=scikit-learn&logoColor=white)  ![icon](https://img.shields.io/badge/-Open%203D-3DA639?style=flat&logo=open-source-initiative&logoColor=white)  ![icon](https://img.shields.io/badge/-Point%20Cloud%20Library-3DA639?style=flat&logo=open-source-initiative&logoColor=white)  ![icon](https://img.shields.io/badge/-Eigen-3DA639?style=flat&logo=open-source-initiative&logoColor=white)|
-|Tech|`Statistics (Bayesian/Frequentist)` / <br>`Linear Algebra` / <br>`Probability theory` / <br>`Data Visualization` / <br>`Digital Image Processing` / <br>`Positioning Technology` / <br>`3D LiDAR` / <br>`Data Analysis` / <br>`Machine Learning` / <br>`Time-series Forcasting`|
-
-
----
-
-## 職務経歴概要
-
-| 時期 | 所属企業 | 職務概要 | ロール |
-|:-:|:-:|:---|:---|
-|現在<br>↑<br>2020/09| 株式会社データラーニング<br>（業務委託） | ・受託データ分析<br>・コミュニティマネジメント| ・データサイエンティスト<br>・コミュニティマネージャー |
-|2020/08<br>↑<br>2014/04| 株式会社ジオ技術研究所<br>（正社員） | ・3D デジタル地図製造研究<br>・デジタル地図製造 APP 開発 | ・研究者<br>・エンジニア |
-
-
----
-
-<div class="page"/>
-
-## 職務経歴詳細
-
-### 株式会社データラーニング（2020/09〜現在）
+|プロジェクト概要|役割|主な技術スタック|
+|---|---|---|
+|動画を自動生成するWebアプリケーションの開発|・プロジェクトマネージャー<br>・アーキテクト<br>・バックエンド、フロントエンド、インフラエンジニア|Python / JavaScript / FastAPI / Flask / React / PostgreSQL / Redis / gRPC / Docker|
+|人体検知や侵入検知を備えたIoTプラットフォームの開発|・バックエンドエンジニア<br>・IoTアプリケーションエンジニア|Go / C / JavaScript / Node-RED / DeepStream / Redis / MQTT / Django / PostgreSQL / Docker |
 
 <br>
 
-#### 社内システム基盤開発
+### IT Consultant ( Shiraishi Shoten Co., Ltd. ) - Aug 2021 - Present
 
-
-| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
-|---|---|:---|---|---|
-| 広告データ、各種サービスの決済<br>データ、オンラインコミュニティ<br>のユーザーデータ管理基盤開発、<br>各種フローの自動化など。 |・データ収集の仕組み作り<br>・ワークフロー自動化 | ・GAS<br>・GCP<br>・ L ステップ<br>・ Zapier<br>・ SlackAPI<br>・ Python | 1 人 | エンジニア |
-
-<br>
-
-#### データサイエンススクール事業における受講生サポート
-
-
-| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
-|---|---|:---|---|---|
-| 社が運営するデータサイエンス<br>スクールの受講生向けメンタリング。<br>主に講座や提出課題に関する<br>技術的な疑問に対する回答。 |・Python<br>・SQL | ー | 4 人 | メンター |
+|プロジェクト概要|役割|主な技術スタック|
+|---|---|---|
+|学校向け教材販売業務のDX|・プロジェクトマネージャー<br>・アーキテクト<br>・ソフトウェアエンジニア|PHP / Python / MySQL / Wordpress|
+|売上管理のDX|・コンサルタント<br>・ソフトウェアエンジニア|Python / TypeScript / GAS / Google Workspace APIs|
 
 <br>
 
-#### データサイエンススクール事業デジタルコンテンツ配信
+### Data Analyst ( Kazaneya LLC ) - Mar 2021 - Nov 2021
 
-
-| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
-|---|---|:---|---|---|
-| 社が運営するデータサイエンス<br>スクールの講座内容のライト版を<br>収録した動画を作成し、動画配信<br>サービスにて共有（[動画リンク](https://youtube.com/playlist?list=PL5g42qAz4pA2HmsLnwV2eZOu5EZ4BU2hA)） |・ベースのスライド資料作成 | ー | 3 人 | テクニカルライター |
-
-<br>
-
-#### オンラインコミュニティ運営
-
-
-| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
-|---|---|:---|---|---|
-| データ人材の知見共有などを目的<br>とした有料オンラインコミュニティ<br>の運営。<br>コミュニケーション・ナレッジ共有<br>の仕組み作り、イベント企画や<br>メンバーの活動支援などを実施。 |・イベント企画/運営<br>・勉強会企画/運営<br>・プロジェクト支援 | ー | 2 人 | コミュニティマネージャー |
+|プロジェクト概要|役割|主な技術スタック|
+|---|---|---|
+|クライアント企業ダッシュボード開発|・データアナリスト|BigQuery / Data Studio|
+|Data Warehouse使用状況調査レポート([link](https://prtimes.jp/main/html/rd/p/000000004.000057831.html))|・プロジェクトマネージャー<br>・データアナリスト|BigQuery / Data Studio / Google Spreadsheet|
 
 <br>
 
-#### 養殖生物の死亡原因推定
+<div style="page-break-before:always"></div>
 
+### Data Scientist, Community Manager, and Mentor ( Data Learning, Inc. ) - Sep 2020 - Jun 2021
 
-| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
-|---|---|:---|---|---|
-| 養殖生物の生育環境と斃死データ<br>を元に、生物の斃死に影響を及ぼす<br>要因の探索、及び斃死を抑制する<br>ための施策提案 |・基礎分析<br>・機械学習モデル作成/改善<br>・分析レポート | ・Python<br>・Jupyter/pandas/<br>numpy/statsmodels/<br>scikit-learn | 2 人 | データサイエンティスト |
-
-
-<br>
-
-#### 広告コスト最適化プロジェクト
-
-
-| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
-|---|---|:---|---|---|
-| デジタル及びオフラインの複数広告<br>メディアの時系列データを元に、<br>都道府県ごとに広告メディアの<br>コスト最適化 |・基礎分析<br>・都道府県ごとの<br>クラスタリング<br>・売上予測モデルの実装<br>・分析レポート | ・R<br>・RStan/<br>状態空間モデリング | 2 人 | データサイエンティスト |
-
+|プロジェクト概要|役割|主な技術スタック|
+|---|---|---|
+|MMMを用いた複数広告チャンネルへの出稿コスト最適化|・データサイエンティスト|R / Python / RStan |
+|養殖生物の斃死原因推定|・データサイエンティスト|Python / scikit-learn|
+|PCログに基づくオペレーターのタスク実績可視化|・ソフトウェアエンジニア|Python / pandas|
+|データ分析社コミュニティの運営([link](https://data-learning.com/guild))|コミュニティマネージャー|-|
+|データ分析学習コンテンツ製作([link](https://youtube.com/playlist?list=PL5g42qAz4pA2HmsLnwV2eZOu5EZ4BU2hA))・メンター|・コンテンツライター<br>・メンター|-|
 
 <br>
 
-#### タスクマイニングプロジェクト
+### R&D Engineer ( GEO Technical Labratory,. Co, Ltd. ) - Apr 2014 - Aug 2020
 
+|プロジェクト概要|役割|主な技術スタック|
+|---|---|---|
+|高精度3D地図データ整備の自動化技術に関する研究・開発|・プロジェクトマネージャー<br>・テクニカルリサーチ<br>・ソフトウェアエンジニア|C++ / Python / OpenGL<br> / 3D Point Cloud / 3D Registration|
+|3D計測技術開発|・プロジェクトマネージャー<br>・テクニカルリサーチ<br>・ソフトウェアエンジニア|C++ / Python / OpenGL / OpenCV<br> / 3D Point Cloud / 3D Registration|
+|2D地図データ整備用アプリケーション開発|・プロジェクトマネージャー<br>・ソフトウェアエンジニア|C++ / MFC / WindowsAPI / OpenCV|
 
-| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
-|---|---|:---|---|---|
-| オペレータの PC 操作ログを<br>入力として、業務内容の可視化、<br>及びボトルネック等の調査 |・基礎分析<br>・データ前処理/可視化処理<br>の実装 | ・Python<br>・Jupyter/pandas/<br>numpy/<br>タスクマイニング | 2 人 | データサイエンティスト |
+## 資格
 
-<br><br>
-
-<div class="page"/>
-
-### 株式会社ジオ技術研究所（2014/04〜2020/08）
-
-<br>
-
-#### 高精度 3D 地図データ製造の高効率化研究（2017/10〜2020/08)
-
-
-| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
-|---|---|:---|---|---|
-| 高精度 3D 地図データ製造における<br>「3D レジストレーション」工程の<br>自動化、及び半自動化による業務の<br>高効率化研究 | ・レジストレーションの自動化<br>・データの生成と検証全体の製造<br>工程設計 | ・C++/Python<br>・OpenCV/OpenGL<br>/ICP | 1 人 | 研究者 |
-
-<br>
-
-#### 交差点内の自動車走行コース自動計算研究・機能開発（2017/04〜2020/03)
-
-
-| プロジェクト概要 | 担当業務 | Stack | 人数| 役割
-|---|---|---|---|---|
-| 既存の 3D 地図データから、交差点<br>内における車両の妥当な走行線の探<br>索、及び経路の自動算出アルゴリズム<br>検討 | 当該アルゴリズムのパフォーマンス<br>改善及び業務用 3D 地図製造アプリ<br>ケーションへの組み込み | ・C++/MATLAB<br>・OpenGL/<br>Road Enginnering<br>（道路工学） | 9 人 | 研究者<br>兼<br>エンジニア |
-
-
-<br>
-
-#### 高精度 3D 地図データ計測車両の精度検証（2019/04〜2019/09)
-
-| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
-|---|---|---|---|---|
-| 高精度 3D 地図製造における計測<br>フェーズの技術研究 | ・ 3DLiDAR / 産業用カメラ / GPS <br>などを搭載した車両の仕立て<br><br>・各センサーの性能に基づいて、<br>最終出力データの理論的誤差モデル<br>を構築、及び実測誤差の検証実験の<br>計画、実施 | ・C++/Python<br>・OpenCV/OpenGL/<br>Positioning Technology<br>（測位技術） | 5 人 | サブリーダー<br>兼<br>研究者 |
-
-<br>
-
-<div class="page"/>
-
-#### 夜間における道路上地物の撮影技術研究（2016/10〜2017/03)
-
-
-| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
-|---|---|---|---|---|
-| 夜間の道路上の地物を正しく認識<br>するために適切な撮影パラメータの<br>調査及び検討 | ・適切なパラメータの調査実験の<br>設計と実施<br>・実験用ツール開発<br>・性能評価のレポート | ・C++<br>・OpenCV/<br>Digital Image Processing<br>（デジタル画像処理） | 2 人 | 開発者<br>兼<br>研究者 |
-
-
-<br>
-
-#### 2Dデジタル地図製造アプリケーション開発（2015/06〜2016/09)
-
-| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
-|---|---|---|---|---|
-|業務用 2D デジタル地図製造用<br>GUI アプリケーションやフォーマット<br>変換ツールの開発 | 要件定義<br>設計<br>実装<br>テスト<br>リリース<br>保守<br>障害対応 | ・C++<br>・WinAPI/MFC/OpenCV/SQLite | 2 人 | 開発者 |
-
-<br>
-
-#### 地図データ・フォーマット変換ツール開発（2015/01〜2015/05)
-
-| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
-|---|---|---|---|---|
-| 地図データフォーマット変換ツール<br>新規開発 | I/F 設計、変換ロジック開発 | C++ | 3 人 | 開発者 |
-
-<br>
-
-#### IMU 性能検証（2014/09〜2014/12)
-
-| プロジェクト概要 | 担当業務 | Stack | 人数| 役割 |
-|---|---|---|---|---|
-| 新規に導入予定の低価格<br>Innertial Mesurement Unit(IMU)の<br>性能、環境耐性検証 | 実験計画、実験の実施 | ・C++<br>・Arduino | 3 人 | 開発者 |
-
-
----
-
-<div class="page"/>
+- 画像処理エンジニアエキスパート ( 2017 )
+- G 検定 ( 2019 )
+- 基本情報 ( 2013 )
 
 ## 業務外活動
 
-### データ分析人材のコミュニティ（[※1](#anno-1)）にてコミュニティマネージャー
-
-- 各種イベント企画、活動支援
-
-
-### データサイエンティストのスキルセットに関する記事の作成
-
-- データサイエンティストに求められるスキルセットなどを整理（[※2](#anno-2)）
-
-
-### 任意のトピックについて関心があるユーザーをレコメンドするシステム
-
-- Slash コマンドで任意のトピックを入力すると、当該トピックについてよく発言していると思われる同一 Slack ワークスペース内のユーザーを推奨ランク順にレコメンドする
-- [Slash Command at GitHub](https://github.com/data-learning-guild/portfolio-slashcmd-gcp)
-- [Recommendation API at GitHub](https://github.com/data-learning-guild/portfolio-recommendation-api)
-- [Word Embedding at GitHub](https://github.com/data-learning-guild/portfolio-word-embedding)
-- Python / Flask / Slash Command / Google Cloud Platform(App Engine/Cloud Functions/Cloud PubSub/Cloud Storage)
-
-<br><br>
-
----
-
-<br>
-
-<a name="anno-1">※1 ... <a href="https://data-learning.com/guild">データラーニングギルド</a>
-
-<a name="anno-2">※2 ... <a href="https://qiita.com/masso/items/44437b48706483ce9f30">データサイエンティスト転職を決めるポートフォリオのガイドライン at Qiita</a>
-
-
+- 個人開発
+  - [slack-data-pipeline](https://github.com/data-learning-guild/slack-data-pipeline)
+    - 概要：Slack の会話履歴を抽出し、データレイク、データウェアハウスへとデータを流すパイプラインアプリケーション
+    - 状況：コミュニティで実運用中
+  - [twitter-bot-cli](https://github.com/sota0121/twitter-bot-cli)
+    - 概要：CLI で簡単に Twitter の Bot アカウントからメッセージ投稿できるツール
+    - 状況：アルファ版運用中
+  - [slack-auto-export](https://github.com/sota0121/slack-auto-export)
+    - 概要：Slack のチャンネル、ユーザー及び会話履歴を自動的にエクスポートするツール
+    - 状況：開発中
+  - [slack-archive-viewer](https://github.com/sota0121/slack-archive-viewer)
+    - 概要：Slack からエクスポートしたチャンネル、ユーザー及び会話履歴を表示するツール
+    - 状況：開発中
+- 出版物
+  - [『データ×AI人材キャリア大全』（村上智之）](https://www.shoeisha.co.jp/book/detail/9784798177267)寄稿
