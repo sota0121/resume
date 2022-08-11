@@ -14,6 +14,7 @@ h1:first-child {
 table {
   font-size: 11px;
   border-collapse: collapse;
+  width: 100%;
 }
 
 td,
@@ -53,4 +54,39 @@ hr {
   color: #66a;
   font-weight: bold;
   font-size: large;
+}
+
+.resume-header-layout {
+  margin-bottom: 6mm;
+}
+
+.resume-header-name {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: #003b49;
+}
+
+.resume-header-email {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  color: #003b49;
+}
+
+.resume-header-gh-layout {
+  text-align: right;
+}
+
+.resume-header-gh {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1d4289;
+}
+
+.resume-header-pg-lang {
+  font-size: 14px;
+  font-weight: bold;
+  color: #003b49;
+  text-align: right;
 }
