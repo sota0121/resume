@@ -18,7 +18,7 @@
 |プロジェクト概要|役割|主な技術スタック|
 |---|---|---|
 |動画を自動生成するWebアプリケーションの開発|・プロジェクトマネージャー<br>・アーキテクト<br>・バックエンド、フロントエンド、インフラエンジニア|Python / JavaScript / FastAPI / Flask / React / PostgreSQL / Redis / gRPC / Docker|
-|人体検知や侵入検知を備えたIoTプラットフォームの開発|・バックエンドエンジニア<br>・IoTアプリケーションエンジニア||
+|人体検知や侵入検知を備えたIoTプラットフォームの開発|・バックエンドエンジニア<br>・IoTアプリケーションエンジニア|Go / C / JavaScript / Node-RED / DeepStream / Redis / MQTT / Django / PostgreSQL / Docker |
 
 <br>
 
@@ -26,8 +26,8 @@
 
 |プロジェクト概要|役割|主な技術スタック|
 |---|---|---|
-|学校向け教材販売業務のDX|||
-|売上管理のDX|||
+|学校向け教材販売業務のDX|・プロジェクトマネージャー<br>・アーキテクト<br>・ソフトウェアエンジニア|PHP / Python / MySQL / Wordpress|
+|売上管理のDX|・コンサルタント<br>・ソフトウェアエンジニア|Python / TypeScript / GAS / Google Workspace APIs|
 
 <br>
 
@@ -35,20 +35,22 @@
 
 |プロジェクト概要|役割|主な技術スタック|
 |---|---|---|
-|クライアント企業ダッシュボード開発|||
-|Data Warehouse使用状況調査レポート([link](https://prtimes.jp/main/html/rd/p/000000004.000057831.html))|||
+|クライアント企業ダッシュボード開発|・データアナリスト|BigQuery / Data Studio|
+|Data Warehouse使用状況調査レポート([link](https://prtimes.jp/main/html/rd/p/000000004.000057831.html))|・プロジェクトマネージャー<br>・データアナリスト|BigQuery / Data Studio / Google Spreadsheet|
 
 <br>
+
+<div style="page-break-before:always"></div>
 
 ### Data Scientist, Community Manager, and Mentor ( Data Learning, Inc. ) - Sep 2020 - Jun 2021
 
 |プロジェクト概要|役割|主な技術スタック|
 |---|---|---|
-|MMMを用いた複数広告チャンネルへの出稿コスト最適化|||
-|養殖生物の斃死原因推定|||
-|PCログに基づくオペレーターのタスク実績可視化|||
-|データ分析社コミュニティの運営([link](https://data-learning.com/guild))|||
-|データ分析学習コンテンツ製作([link](https://youtube.com/playlist?list=PL5g42qAz4pA2HmsLnwV2eZOu5EZ4BU2hA))・メンター|||
+|MMMを用いた複数広告チャンネルへの出稿コスト最適化|・データサイエンティスト|R / Python / RStan |
+|養殖生物の斃死原因推定|・データサイエンティスト|Python / scikit-learn|
+|PCログに基づくオペレーターのタスク実績可視化|・ソフトウェアエンジニア|Python / pandas|
+|データ分析社コミュニティの運営([link](https://data-learning.com/guild))|コミュニティマネージャー|-|
+|データ分析学習コンテンツ製作([link](https://youtube.com/playlist?list=PL5g42qAz4pA2HmsLnwV2eZOu5EZ4BU2hA))・メンター|・コンテンツライター<br>・メンター|-|
 
 <br>
 
@@ -56,9 +58,9 @@
 
 |プロジェクト概要|役割|主な技術スタック|
 |---|---|---|
-|高精度3D地図データ整備の自動化技術に関する研究・開発|||
-|3D計測技術開発|||
-|2D地図データ整備用アプリケーション開発|||
+|高精度3D地図データ整備の自動化技術に関する研究・開発|・プロジェクトマネージャー<br>・テクニカルリサーチ<br>・ソフトウェアエンジニア|C++ / Python / OpenGL<br> / 3D Point Cloud / 3D Registration|
+|3D計測技術開発|・プロジェクトマネージャー<br>・テクニカルリサーチ<br>・ソフトウェアエンジニア|C++ / Python / OpenGL / OpenCV<br> / 3D Point Cloud / 3D Registration|
+|2D地図データ整備用アプリケーション開発|・プロジェクトマネージャー<br>・ソフトウェアエンジニア|C++ / MFC / WindowsAPI / OpenCV|
 
 ## 資格
 
