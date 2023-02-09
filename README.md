@@ -1,75 +1,63 @@
-# Sota Masuda's resume
+# A statically generated blog example using Next.js, Markdown, and TypeScript
 
-## resume page
+This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.
 
-- JP
-  - https://sota0121.github.io/resume/jp/README
-- EN
-  - https://sota0121.github.io/resume/en/README
+This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using Markdown files as the data source.
 
+The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
 
-## Features
+To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
 
-### 💅 Lint text
+## Demo
 
-Automatic proofreading with [textlint](https://github.com/textlint/textlint).
+[https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
 
-```bash
-# for files written in Japanese
-$ yarn lint:jp --fix
+## Deploy your own
 
-# for files written in English
-$ yarn lint:en --fix
-```
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/blog-starter)
 
-It is also automatically executed when pre-commit by [husky](https://github.com/typicode/husky).  
-proofreading rules are set with `.textlintrc`.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog-starter&project-name=blog-starter&repository-name=blog-starter)
 
+### Related examples
 
-### 📝 Convert MD to PDF
+- [WordPress](/examples/cms-wordpress)
+- [DatoCMS](/examples/cms-datocms)
+- [Sanity](/examples/cms-sanity)
+- [TakeShape](/examples/cms-takeshape)
+- [Prismic](/examples/cms-prismic)
+- [Contentful](/examples/cms-contentful)
+- [Strapi](/examples/cms-strapi)
+- [Agility CMS](/examples/cms-agilitycms)
+- [Cosmic](/examples/cms-cosmic)
+- [ButterCMS](/examples/cms-buttercms)
+- [Storyblok](/examples/cms-storyblok)
+- [GraphCMS](/examples/cms-graphcms)
+- [Kontent](/examples/cms-kontent)
+- [Umbraco Heartcore](/examples/cms-umbraco-heartcore)
+- [Builder.io](/examples/cms-builder-io)
+- [TinaCMS](/examples/cms-tina/)
+- [Enterspeed](/examples/cms-enterspeed)
 
-You can generate PDF with [md-to-pdf](https://www.npmjs.com/package/md-to-pdf).
+## How to use
 
-
-```bash
-$ yarn build:pdf
-```
-
-The output PDF can be styled as you like with CSS. Edit the `pdf-configs/style.css`.  
-
-### 🛠 Create release
-
-When you push with a `v**` tag, GitHub Actions will run the build, generate the PDF, create a Release, and register the PDF to Assets.
-
-```bash
-$ git commit -m "add job"
-$ git tag v1.0
-$ git push origin --tags
-```
-
-### 📆 Remind update
-
-Automatically generate issues every three months with GitHub Actions Schedules triggers to prompt you to update your resume.
-
-To change the duration or stop the job, edit `.github/workflows/create-issue.yml`.  
-To change the issue contents, edit `.github/ISSUE_TEMPLATE.md`.
-
-### 🛠 Run Jekyll locally
-
-You can run Jekyll locally with `./watch.sh`, and then access the site with `http://localhost:4000`.
-
-- Index page: [http://localhost:4000/](http://localhost:4000/)
-- Resume in Japanese: [http://localhost:4000/docs/jp/](http://localhost:4000/docs/jp/)
-- Resume in English: [http://localhost:4000/docs/en/](http://localhost:4000/docs/en/)
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
 ```bash
-# serve
-$ ./watch.sh $PORT_NUMBER
+npx create-next-app --example blog-starter blog-starter-app
 ```
-
-If you want to just build documentation without serving, you can use `./build.sh`.
 
 ```bash
-# build
-$ ./build.sh
+yarn create next-app --example blog-starter blog-starter-app
 ```
+
+```bash
+pnpm create next-app --example blog-starter blog-starter-app
+```
+
+Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
+
+Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+# Notes
+
+`blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
