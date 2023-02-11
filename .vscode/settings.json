@@ -4,5 +4,9 @@
         "./pdf-configs/config.js",
         "./pdf-configs/style.css"
     ],
-    "markdown-pdf.breaks": true
+    "markdown-pdf.breaks": true,
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+    }
 }

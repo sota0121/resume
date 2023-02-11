@@ -4,6 +4,8 @@ import CoverImage from './cover-image'
 import Link from 'next/link'
 import type Author from '../interfaces/author'
 
+// This isn't used anywhere, but it's a good example of how to
+
 type Props = {
   title: string
   coverImage: string
