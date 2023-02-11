@@ -15,7 +15,7 @@ const MenuList = [
   },
   {
     title: 'Blog',
-    href: '/blog',
+    href: '/', // Now Home Page is Blog Page
     description: 'Blog of Sota Lab',
   }
 ]
