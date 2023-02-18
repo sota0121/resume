@@ -8,7 +8,7 @@ export const AppBar: React.FC = () => {
   return (
     <>
       <nav className="bg-neutral-50 border-gray-200 mb-4 px-2 sm:px-4 py-2.5 rounded">
-        <div className="container flex flex-wrap items-center justify-between mx-auto">
+        <div className="container flex items-center justify-between mx-auto">
           <AppBarTitle />
           <AppBarMenuList />
         </div>
