@@ -7,7 +7,7 @@ author:
   name: Sota Masuda
   picture: '/assets/blog/authors/sota.jpeg'
 ogImage:
-  url: '/assets/blog/preview/cover.jpg'
+  url: '/assets/cover/sota-lab-icon.png'
 ---
 
 # Notion を整理した話
