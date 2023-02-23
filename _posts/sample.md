@@ -8,6 +8,7 @@ author:
   picture: '/assets/blog/authors/sota.jpeg'
 ogImage:
   url: '/assets/cover/sota-lab-icon.png'
+tags: ['sample']
 ---
 
 
