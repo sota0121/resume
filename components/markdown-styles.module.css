@@ -50,9 +50,9 @@
 }
 
 .markdown ul {
-  @apply mb-2 list-disc;
+  @apply mb-2 list-disc list-inside;
 }
 
 .markdown ol {
-  @apply list-decimal;
+  @apply list-decimal list-inside;
 }
