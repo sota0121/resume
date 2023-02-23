@@ -32,7 +32,7 @@ export default async function markdownToHtml(markdown: string) {
     .use(rehypeStringify) // Stringify HTML AST to HTML
     .process(markdown)
 
-  console.log(vfile)
+  console.log(vfile.toString())
 
   // const result = await remark().use(html).process(markdown)
   return String(vfile)
