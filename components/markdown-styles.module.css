@@ -1,5 +1,5 @@
 .markdown {
-  @apply text-lg leading-relaxed;
+  @apply text-lg leading-relaxed text-gray-900;
 }
 
 .markdown p,
@@ -15,4 +15,44 @@
 
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
+}
+
+.markdown h4 {
+  @apply text-xl mt-8 mb-4 leading-snug;
+}
+
+.markdown a {
+  @apply text-gray-500 underline;
+}
+
+.markdown a:hover {
+  @apply text-gray-900;
+}
+
+.markdown strong {
+  @apply font-semibold;
+}
+
+.markdown em {
+  @apply italic text-gray-700;
+}
+
+.markdown blockquote {
+  @apply border-l-4 border-gray-200 italic pl-4 text-gray-700;
+}
+
+.markdown pre {
+  @apply bg-gray-100 font-mono rounded text-sm p-2;
+}
+
+.markdown code {
+  @apply bg-gray-100 font-mono rounded text-sm;
+}
+
+.markdown ul {
+  @apply mb-2 list-disc;
+}
+
+.markdown ol {
+  @apply list-decimal;
 }

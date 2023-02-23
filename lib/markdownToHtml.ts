@@ -16,6 +16,8 @@ export default async function markdownToHtml(markdown: string) {
     .use(rehypeStringify)
     .process(markdown)
 
+  console.log(vfile.toString())
+
   // const result = await remark().use(html).process(markdown)
   return String(vfile)
 }
