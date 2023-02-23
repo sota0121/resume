@@ -3,12 +3,14 @@ import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import rehypeSanitize, { defaultSchema } from 'rehype-sanitize'
 import rehypeHighlight from 'rehype-highlight'
+import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeStringify from 'rehype-stringify'
 
 
 // ref: https://github.com/remarkjs/remark#example-turning-markdown-into-html
 // ref: https://vivliostyle.github.io/vivliostyle_doc/ja/vivliostyle-user-group-vol2/spring-raining/index.html
 // rehype-highlight: https://github.com/rehypejs/rehype-highlight
+// rehype-autolink-headings: https://github.com/rehypejs/rehype-autolink-headings
 
 export default async function markdownToHtml(markdown: string) {
   const vfile = await unified()
@@ -26,6 +28,7 @@ export default async function markdownToHtml(markdown: string) {
       },
     })
     .use(rehypeHighlight) // Highlight code blocks with highlight.js
+    .use(rehypeAutolinkHeadings) // Add anchor links to headings
     .use(rehypeStringify) // Stringify HTML AST to HTML
     .process(markdown)
 
