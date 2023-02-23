@@ -10,7 +10,6 @@ ogImage:
   url: '/assets/cover/sota-lab-icon.png'
 ---
 
-# Notion を整理した話
 
 ## 課題感
 
