@@ -8,6 +8,8 @@ export function getPostSlugs() {
   return fs.readdirSync(postsDirectory)
 }
 
+const ignoredFiles = ['README', '.DS_Store']
+
 export function getPostBySlug(slug: string, fields: string[] = []) {
   const realSlug = slug.replace(/\.md$/, '')
   const fullPath = join(postsDirectory, `${realSlug}.md`)
@@ -40,6 +42,7 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
 export function getAllPosts(fields: string[] = []) {
   const slugs = getPostSlugs()
   const posts = slugs
+    .filter((slug) => !ignoredFiles.includes(slug))
     .map((slug) => getPostBySlug(slug, fields))
     // sort posts by date in descending order
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))

@@ -3,15 +3,17 @@ import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
 import PostTitle from './post-title'
 import type Author from '../interfaces/author'
+import Tag from './tag'
 
 type Props = {
   title: string
   coverImage: string
   date: string
   author: Author
+  tags: string[]
 }
 
-const PostHeader = ({ title, coverImage, date, author }: Props) => {
+const PostHeader = ({ title, coverImage, date, author, tags }: Props) => {
   return (
     <>
       <PostTitle>{title}</PostTitle>
@@ -27,6 +29,9 @@ const PostHeader = ({ title, coverImage, date, author }: Props) => {
         </div>
         <div className="mb-6 text-lg">
           <DateFormatter dateString={date} />
+        </div>
+        <div className='flex flex-wrap'>
+          <Tag tags={tags} />
         </div>
       </div>
     </>

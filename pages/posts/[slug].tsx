@@ -8,7 +8,7 @@ import Layout from '../../components/layout'
 import { getPostBySlug, getAllPosts } from '../../lib/api'
 import PostTitle from '../../components/post-title'
 import Head from 'next/head'
-import { CMS_NAME } from '../../lib/constants'
+import { BASE_PAGE_TITLE } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type PostType from '../../interfaces/post'
 
@@ -23,6 +23,8 @@ export default function Post({ post, morePosts, preview }: Props) {
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
   }
+  const title = post.title + ' | ' + BASE_PAGE_TITLE
+
   return (
     <Container>
       <Header />
@@ -33,7 +35,7 @@ export default function Post({ post, morePosts, preview }: Props) {
           <article className="mb-32">
             <Head>
               <title>
-                {post.title} | Next.js Blog Example with {CMS_NAME}
+                {title}
               </title>
               <meta property="og:image" content={post.ogImage.url} />
             </Head>
@@ -42,6 +44,7 @@ export default function Post({ post, morePosts, preview }: Props) {
               coverImage={post.coverImage}
               date={post.date}
               author={post.author}
+              tags={post.tags}
             />
             <PostBody content={post.content} />
           </article>
@@ -66,6 +69,7 @@ export async function getStaticProps({ params }: Params) {
     'content',
     'ogImage',
     'coverImage',
+    'tags',
   ])
   const content = await markdownToHtml(post.content || '')
 
