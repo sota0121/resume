@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "22.x"
+  },
   "private": true,
   "scripts": {
     "dev": "next",

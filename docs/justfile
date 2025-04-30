@@ -1,0 +1,43 @@
+[private]
+default:
+  @just --list
+
+
+# Install dependencies
+[group('setup')]
+install-deps:
+  # https://www.npmjs.com/package/md-to-pdf
+  @npm i -g md-to-pdf
+
+
+# coppied from package.json > scripts
+# "build:pdf:en": "md-to-pdf md/en/RESUME.md --config-file ./md/en/pdfconf/config.js",
+# "build:pdf:jp": "md-to-pdf md/jp/RESUME.md --config-file ./md/jp/pdfconf/config.js",
+# "build:pdf": "yarn build:pdf:en && yarn build:pdf:jp"
+
+
+# Build a PDF for specified language jp by default. (Usage: just build-pdf jp|en)
+[no-cd]
+[group('pdf')]
+build-pdf lang="jp":
+  #!/bin/bash
+  # Verification
+  if [ {{lang}} != "jp" ] && [ {{lang}} != "en" ]; then
+    echo "Invalid language. Use 'jp' or 'en'."
+    exit 1
+  fi
+
+  # Run md-to-pdf
+  echo "Building PDF for {{lang}}..."
+  npx md-to-pdf "{{justfile_directory()}}/md/{{lang}}/RESUME.md" --config-file {{justfile_directory()}}/md/{{lang}}/pdfconf/config.js
+
+
+# Build the PDF for all languages
+[no-cd]
+[group('pdf')]
+[confirm("Are you sure you want to build the PDF for all languages? (y/n)")]
+build-pdf-all:
+  @echo "build pdf in all languages"
+  @just build-pdf jp
+  @just build-pdf en
+
