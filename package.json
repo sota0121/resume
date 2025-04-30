@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "23.x"
+  },
   "private": true,
   "scripts": {
     "dev": "next",
