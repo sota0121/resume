@@ -9,11 +9,11 @@ install-deps:
   # https://www.npmjs.com/package/md-to-pdf
   @npm i -g md-to-pdf
 
-
-# coppied from package.json > scripts
-# "build:pdf:en": "md-to-pdf md/en/RESUME.md --config-file ./md/en/pdfconf/config.js",
-# "build:pdf:jp": "md-to-pdf md/jp/RESUME.md --config-file ./md/jp/pdfconf/config.js",
-# "build:pdf": "yarn build:pdf:en && yarn build:pdf:jp"
+# Install dependencies for CI
+[group('ci')]
+install-deps-ci:
+  npm ci
+  npm run install:chrome
 
 
 # Build a PDF for specified language jp by default. (Usage: just build-pdf jp|en)

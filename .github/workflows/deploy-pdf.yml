@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         working-directory: ./docs
         run: |
-          just install-deps
+          just install-deps-ci
 
       # Build PDFs
       - name: Build pdf for all languages

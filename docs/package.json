@@ -1,0 +1,24 @@
+{
+  "name": "resume-pdf",
+  "version": "1.0.0",
+  "description": "Generating Resume PDF from Markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:chrome": "node node_modules/puppeteer/install.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sota0121/resume.git"
+  },
+  "author": "Sota Masuda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sota0121/resume/issues"
+  },
+  "homepage": "https://github.com/sota0121/resume#readme",
+  "dependencies": {
+    "md-to-pdf": "^5.2.4",
+    "puppeteer": "^24.7.2"
+  }
+}
