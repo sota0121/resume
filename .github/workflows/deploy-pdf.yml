@@ -37,7 +37,8 @@ jobs:
       - name: Build pdf for all languages
         working-directory: ./docs
         run: |
-          just build-pdf-all
+          # To skip confirmation prompts, use --yes
+          just build-pdf-all --yes
 
       # If event is a tag, use the tag
       # Else if the event is workflow_dispatch, use the input tag_name
