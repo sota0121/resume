@@ -42,9 +42,15 @@ To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) a
 
 ### How to update and publish the resume
 
-1. Update the docs/en/RESUME.md, and|or docs/ja/RESUME.md files.
-2. Push the changes to remote, and merge the changes to main branch.
-3. `deploy-resume` GitHub action will be triggered, and it will generate the PDF files, create a new GitHub release, and upload the PDF files to the release assets.
+1. Update
+    - Update the resume in `docs/md/en|jp/RESUME.md` files.
+    - Update the styles in `docs/css/*.css` files if needed.
+    - Push the changes to the `main` branch.
+2. Generate and Publish
+    - Trigger the GitHub action `build pdf` manually
+      - Select the branch, mostly `main` branch should be right.
+      - Set the `Tag name` to the version you want to publish. (if tag: `v1.0.0` then `Release v1.0.0`)
+    - This will generate the PDF files, create a new release, and upload the PDF files as assets to the release.
 
 
 ### How to generate the PDF locally
