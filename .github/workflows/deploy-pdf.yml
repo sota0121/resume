@@ -48,13 +48,15 @@ jobs:
         run: |
           set -eof pipefail
           if [[ "${{ github.event_name }}" == "push" ]]; then
-            echo "tag_name=${{ github.ref }}" >> $GITHUB_ENV
+            TAG_NAME="${{ github.ref }}"
           elif [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            echo "tag_name=${{ github.event.inputs.tag_name }}" >> $GITHUB_ENV
+            TAG_NAME="${{ github.event.inputs.tag_name }}"
           else
             echo "No tag name specified"
             exit 1
           fi
+          echo "tag_name=$TAG_NAME" >> $GITHUB_ENV
+          echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
 
       - name: create release
         id: create_release
