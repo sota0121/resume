@@ -9,17 +9,17 @@ install-deps:
   # https://www.npmjs.com/package/md-to-pdf
   @npm i -g md-to-pdf
 
+# Install dependencies for CI
+[group('ci')]
+install-deps-ci:
+  npm ci
+  npm run install:chrome
 
-# coppied from package.json > scripts
-# "build:pdf:en": "md-to-pdf md/en/RESUME.md --config-file ./md/en/pdfconf/config.js",
-# "build:pdf:jp": "md-to-pdf md/jp/RESUME.md --config-file ./md/jp/pdfconf/config.js",
-# "build:pdf": "yarn build:pdf:en && yarn build:pdf:jp"
 
-
-# Build a PDF for specified language jp by default. (Usage: just build-pdf jp|en)
+# Build a PDF for specified language jp by default. (Usage: just build-pdf jp|en false|true. Please set ci=true on CI)
 [no-cd]
 [group('pdf')]
-build-pdf lang="jp":
+build-pdf lang="jp" ci="false":
   #!/bin/bash
   # Verification
   if [ {{lang}} != "jp" ] && [ {{lang}} != "en" ]; then
@@ -29,15 +29,22 @@ build-pdf lang="jp":
 
   # Run md-to-pdf
   echo "Building PDF for {{lang}}..."
-  npx md-to-pdf "{{justfile_directory()}}/md/{{lang}}/RESUME.md" --config-file {{justfile_directory()}}/md/{{lang}}/pdfconf/config.js
+  if [ {{ci}} == "true" ]; then
+    echo "Running in CI mode"
+    # Run md-to-pdf with CI settings
+    npx md-to-pdf "{{justfile_directory()}}/md/{{lang}}/RESUME.md" --config-file {{justfile_directory()}}/md/{{lang}}/pdfconf/config.js --launch-options '{ "args": ["--no-sandbox"] }'
+  else
+    echo "Running in local mode"
+    # Run md-to-pdf with local settings
+    npx md-to-pdf "{{justfile_directory()}}/md/{{lang}}/RESUME.md" --config-file {{justfile_directory()}}/md/{{lang}}/pdfconf/config.js
+  fi
 
-
-# Build the PDF for all languages
+# Build the PDF for all languages (Usage: just build-pdf-all false|true. Please set ci=true on CI)
 [no-cd]
 [group('pdf')]
 [confirm("Are you sure you want to build the PDF for all languages? (y/n)")]
-build-pdf-all:
+build-pdf-all ci="false":
   @echo "build pdf in all languages"
-  @just build-pdf jp
-  @just build-pdf en
+  @just build-pdf jp {{ci}}
+  @just build-pdf en {{ci}}
 
