@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "terminology": {
+      "defaultTerms": true,
+      "skip": ["Blockquote"],
+    },
+    "rousseau": {
+      "showLevels": ["suggestion", "warning", "error"],
+      "ignoreTypes": ["sentence:uppercase"],
+    }
+  }
+}

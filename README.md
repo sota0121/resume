@@ -7,6 +7,12 @@ There are two main sections in this repository:
 
 ## Blog
 
+(TODO: move the code from root to blog directory)
+
+- `/blog/*` contains the blog service implementation.
+- `/blog/_posts/*` contains the blog posts in Markdown format.
+
+
 ### How to add a new blog post
 
 The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
@@ -17,6 +23,10 @@ To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) a
 
 
 ## Resume
+
+- `/docs/md/*` contains the resume in Markdown format.
+- `/docs/out/*` contains the artifacts such as the generated PDF files. but those files are ignored by git.
+- `/docs/justfile` collects the commands to handle the resume generation. Let's try `cd docs && just` to see the available commands.
 
 ### Features
 
