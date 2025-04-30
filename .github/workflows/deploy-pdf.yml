@@ -38,7 +38,8 @@ jobs:
         working-directory: ./docs
         run: |
           # To skip confirmation prompts, use --yes
-          just --yes build-pdf-all
+          # With ci=true to launch puppeteer without a sandbox
+          just --yes build-pdf-all true
 
       # If event is a tag, use the tag
       # Else if the event is workflow_dispatch, use the input tag_name
