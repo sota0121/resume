@@ -26,7 +26,14 @@
 
 ## Experience of working
 
-### Software Engineer ( LIONS Data, Inc. ) - Aug 2021 - Present
+### Software Engineer, Engineering Manager ( Money Forward, Inc. ) - Dec 2022 - Present
+
+- Develop Mikatano ID and Billing platform system with **Go**, **TypeScript**, **AWS**, **MySQL**, **Kubernetes**, and **Terraform** as a development leader.
+- Maintain X Cloud Storage system with **Go**, **AWS**, **MySQL**, and **Terraform**.
+- Organizational management as an engineering manager, including communication in English.
+
+
+### Software Engineer ( LIONS Data, Inc. ) - Aug 2021 - Nov 2022
 
 - Create and maintain the web application of Editting Movie Automatically in **Python** and **JavaScript**.
 - Maintain the IoT application of Human Detection and Recognition in **Go**, **C**, and **JavaScript**.
