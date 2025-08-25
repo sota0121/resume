@@ -7,13 +7,23 @@
 | 名前 | 増田壮大 |
 | メールアドレス | sota.m777121@gmail.com |
 | GitHub Profile | https://github.com/sota0121 |
-| 主な使用言語 | C++ / Python / JavaScript / TypeScript |
+| 主な使用言語 | Go / C++ / Python / JavaScript / TypeScript |
 | 自己PR | (1)不完全な材料しか揃っていない状況でも着実にプロジェクトを進めていくことが得意です。<br>(2)相手の目線に合わせて、伝え方を工夫することが得意です。<br>(3)自律的に考え、仕事を進めていくことが得意です。 |
 
 
 ## 職務経歴
 
-### Software Engineer ( LIONS Data, Inc. ) - Aug 2021 - Present
+### Software Engineer, Engineering Manager ( Money Forward, Inc. ) - Dec 2022 - Present
+
+|プロジェクト概要|役割|主な技術スタック|
+|---|---|---|
+|Mikatano ID/課金<br>基盤システム開発|・開発リーダー<br>・バックエンド、フロントエンド、インフラエンジニア|Go / TypeScript / AWS / MySQL / Kubernetes / Terraform|
+|X Cloud Storageシステム開発|・開発リーダー|Go / AWS / MySQL / Terraform|
+|組織マネジメント|・エンジニアリングマネージャー|英語を用いたコミュニケーション|
+
+<br>
+
+### Software Engineer ( LIONS Data, Inc. ) - Aug 2021 - Nov 2022
 
 |プロジェクト概要|役割|主な技術スタック|
 |---|---|---|
