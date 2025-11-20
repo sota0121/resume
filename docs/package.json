@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/sota0121/resume#readme",
   "dependencies": {
-    "md-to-pdf": "^5.2.4",
+    "md-to-pdf": "^5.2.5",
     "puppeteer": "^24.7.2"
   }
 }
