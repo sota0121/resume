@@ -1,4 +1,4 @@
-name: build pdf
+name: build and deploy pdf
 
 on:
   push:
