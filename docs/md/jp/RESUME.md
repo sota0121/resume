@@ -74,9 +74,9 @@
 
 ## 資格
 
+- 基本情報 ( 2013 )
 - 画像処理エンジニアエキスパート ( 2017 )
 - G 検定 ( 2019 )
-- 基本情報 ( 2013 )
 - TOEIC 750 ( 2023 )
 - PROGOS B1 ( 2024 )
 - AWS Certified Developer - Associate ( 2025 )
