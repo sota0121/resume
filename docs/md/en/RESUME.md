@@ -74,9 +74,15 @@
 - Publish the book "データ×AI 人材キャリア大全" as a contributor on Shoeisha ([link](https://www.shoeisha.co.jp/book/detail/9784798177267))
 
 
-## Leadership and Awards
+## Leadership, Awards and Certifications
 
 - Selected as a promising newcomer to the GEO Technical Labratory, and then received the award of "HOPE" in the year of 2017.
+- Fundamental Information Technology Engineer Certified by the IPA in 2013.
+- Image Processing Engineer Expert Cirtefied by the CG-ARTS Association in 2017.
+- Deep Learning for GENERAL Certified by the JDLA in 2019.
+- TOEIC 750 score in 2023.
+- PROGOS B1 score in 2024.
+- AWS Certified Developer - Associate in 2025.
 
 ## Education
 

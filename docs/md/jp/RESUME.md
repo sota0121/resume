@@ -23,21 +23,21 @@
 
 <br>
 
-### Software Engineer ( LIONS Data, Inc. ) - Aug 2021 - Nov 2022
-
-|プロジェクト概要|役割|主な技術スタック|
-|---|---|---|
-|動画を自動生成するWebアプリケーションの開発|・プロジェクトマネージャー<br>・アーキテクト<br>・バックエンド、フロントエンド、インフラエンジニア|Python / JavaScript / FastAPI / Flask / React / PostgreSQL / Redis / gRPC / Docker|
-|人体検知や侵入検知を備えたIoTプラットフォームの開発|・バックエンドエンジニア<br>・IoTアプリケーションエンジニア|Go / C / JavaScript / Node-RED / DeepStream / Redis / MQTT / Django / PostgreSQL / Docker |
-
-<br>
-
 ### IT Consultant ( Shiraishi Shoten Co., Ltd. ) - Aug 2021 - Present
 
 |プロジェクト概要|役割|主な技術スタック|
 |---|---|---|
 |学校向け教材販売業務のDX|・プロジェクトマネージャー<br>・アーキテクト<br>・ソフトウェアエンジニア|PHP / Python / MySQL / Wordpress|
 |売上管理のDX|・コンサルタント<br>・ソフトウェアエンジニア|Python / TypeScript / GAS / Google Workspace APIs|
+
+<br>
+
+### Software Engineer ( LIONS Data, Inc. ) - Aug 2021 - Nov 2022
+
+|プロジェクト概要|役割|主な技術スタック|
+|---|---|---|
+|動画を自動生成するWebアプリケーションの開発|・プロジェクトマネージャー<br>・アーキテクト<br>・バックエンド、フロントエンド、インフラエンジニア|Python / JavaScript / FastAPI / Flask / React / PostgreSQL / Redis / gRPC / Docker|
+|人体検知や侵入検知を備えたIoTプラットフォームの開発|・バックエンドエンジニア<br>・IoTアプリケーションエンジニア|Go / C / JavaScript / Node-RED / DeepStream / Redis / MQTT / Django / PostgreSQL / Docker |
 
 <br>
 
@@ -77,21 +77,11 @@
 - 画像処理エンジニアエキスパート ( 2017 )
 - G 検定 ( 2019 )
 - 基本情報 ( 2013 )
+- TOEIC 750 ( 2023 )
+- PROGOS B1 ( 2024 )
+- AWS Certified Developer - Associate ( 2025 )
 
 ## 業務外活動
 
-- 個人開発
-  - [slack-data-pipeline](https://github.com/data-learning-guild/slack-data-pipeline)
-    - 概要：Slack の会話履歴を抽出し、データレイク、データウェアハウスへとデータを流すパイプラインアプリケーション
-    - 状況：コミュニティで実運用中
-  - [twitter-bot-cli](https://github.com/sota0121/twitter-bot-cli)
-    - 概要：CLI で簡単に Twitter の Bot アカウントからメッセージ投稿できるツール
-    - 状況：アルファ版運用中
-  - [slack-auto-export](https://github.com/sota0121/slack-auto-export)
-    - 概要：Slack のチャンネル、ユーザー及び会話履歴を自動的にエクスポートするツール
-    - 状況：開発中
-  - [slack-archive-viewer](https://github.com/sota0121/slack-archive-viewer)
-    - 概要：Slack からエクスポートしたチャンネル、ユーザー及び会話履歴を表示するツール
-    - 状況：開発中
 - 出版物
   - [『データ×AI人材キャリア大全』（村上智之）](https://www.shoeisha.co.jp/book/detail/9784798177267)寄稿
