@@ -41,6 +41,8 @@
 
 <br>
 
+<div style="page-break-before:always"></div>
+
 ### Data Analyst ( Kazaneya LLC ) - Mar 2021 - Nov 2021
 
 |プロジェクト概要|役割|主な技術スタック|
@@ -50,7 +52,6 @@
 
 <br>
 
-<div style="page-break-before:always"></div>
 
 ### Data Scientist, Community Manager, and Mentor ( Data Learning, Inc. ) - Sep 2020 - Jun 2021
 
@@ -71,6 +72,8 @@
 |高精度3D地図データ整備の自動化技術に関する研究・開発|・プロジェクトマネージャー<br>・テクニカルリサーチ<br>・ソフトウェアエンジニア|C++ / Python / OpenGL<br> / 3D Point Cloud / 3D Registration|
 |3D計測技術開発|・プロジェクトマネージャー<br>・テクニカルリサーチ<br>・ソフトウェアエンジニア|C++ / Python / OpenGL / OpenCV<br> / 3D Point Cloud / 3D Registration|
 |2D地図データ整備用アプリケーション開発|・プロジェクトマネージャー<br>・ソフトウェアエンジニア|C++ / MFC / WindowsAPI / OpenCV|
+
+<br>
 
 ## 資格
 
